@@ -357,6 +357,11 @@
 
 /* Setup (Root, Variables)
 ------------------------------------------------------------------------------------------ */
+body {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
 
 /* Typography
 ------------------------------------------------------------------------------------------ */
@@ -365,3 +370,65 @@
  * Break points
  * 576px, 768px, 992px, 1200px(, 1600px)
 ------------------------------------------------------------------------------------------ */
+/* Extra small devices (portrait phones, and up) or just general */
+
+.grid-container--main {
+  display: grid;
+  width: 100.00%;
+  max-width: 1200px;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 0px;
+
+  height: 100vh;
+}
+
+.col-1 {
+  height: 100.00%;
+  grid-column: span 1;
+  border-left: 1px dotted blue;
+  border-right: 1px dotted blue;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .grid-container--main {
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 2px;
+  }
+
+  .col-1 {
+    grid-column: span 2;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  .grid-container--main {
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 10px;
+  }
+
+  .col-1 {
+    grid-column: span 3;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .grid-container--main {
+    grid-template-columns: repeat(16, 1fr);
+  }
+
+  .col-1 {
+    grid-column: span 4;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
