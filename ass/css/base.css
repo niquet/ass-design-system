@@ -4,37 +4,37 @@
     /* Typography */ 
     --root-font-size: 10px;
 
-    --base-font-size: 1.6000em;
-    --base-bottom-margin: 3.0000rem;
-    --base-scale-ratio: 1.2500;
+    --base-font-size:       1.6000em;
+    --base-bottom-margin:   3.0000rem;
+    --base-scale-ratio:     1.2500;
 
-    --global-header-fonts: "Montserrat", "Helvetica", "Arial", sans-serif;
-    --global-body-fonts: "Esteban", "Luna";
-    --global-line-height: 3rem;
+    --global-header-fonts:  "Montserrat", "Helvetica", "Arial", sans-serif;
+    --global-body-fonts:    "Esteban", "Luna";
+    --global-line-height:   3rem;
 
-    --global-large-title-size: 6.1035em;
-    --global-large-title-line-height: 9rem;
+    --global-large-title-size:          6.1035em;
+    --global-large-title-line-height:   9rem;
     --global-large-title-bottom-margin: 3rem;
 
-    --global-title-size: 4.8828em;
-    --global-title-line-height: 6rem;
-    --global-title-bottom-margin: 3 rem;
+    --global-title-size:                4.8828em;
+    --global-title-line-height:         6rem;
+    --global-title-bottom-margin:       3 rem;
 
-    --global-subtitle-size: 3.9062em;
-    --global-subtitle-line-height: 6rem;
-    --global-subtitle-bottom-margin: 3rem;
+    --global-subtitle-size:             3.9062em;
+    --global-subtitle-line-height:      6rem;
+    --global-subtitle-bottom-margin:    3rem;
 
-    --global-heading-size: 3.1250em;
-    --global-heading-line-height: 6rem;
-    --global-heading-bottom-margin: 3rem;
+    --global-heading-size:              3.1250em;
+    --global-heading-line-height:       6rem;
+    --global-heading-bottom-margin:     3rem;
 
-    --global-subheading-size: 2.5000em;
-    --global-subheading-line-height: 3rem;
-    --global-subheading-bottom-margin: 3rem;
+    --global-subheading-size:           2.5000em;
+    --global-subheading-line-height:    3rem;
+    --global-subheading-bottom-margin:  3rem;
 
-    --global-caption-size: 2.000em;
-    --global-caption-line-height: 3rem;
-    --global-caption-bottom-margin: 3rem;
+    --global-caption-size:              2.000em;
+    --global-caption-line-height:       3rem;
+    --global-caption-bottom-margin:     3rem;
 }
 
 /* Main root
