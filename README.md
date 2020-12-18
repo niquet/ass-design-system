@@ -2,3 +2,5 @@
 
 # ass design system
 Accessible, search engine optimized design system. Abbreviated, ass.
+
+## Method of Organizing CSS
